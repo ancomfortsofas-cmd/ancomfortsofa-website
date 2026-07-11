@@ -39,3 +39,11 @@ current=0;
 slides[current].classList.add("active");
 
 },3000);
+window.onload=function(){
+
+document.getElementById("loader").style.display="none";
+
+}
+Sent
+Compose
+Write to
