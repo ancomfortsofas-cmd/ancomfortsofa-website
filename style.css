@@ -370,4 +370,59 @@ Write to
 
 .review-card{
     color:#111;
+}.call-btn{
+position:fixed;
+left:20px;
+bottom:20px;
+width:60px;
+height:60px;
+background:#ff9800;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+color:white;
+text-decoration:none;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+z-index:999;
+}.btn,
+.hero a,
+.enquiry button{
+transition:.4s;
 }
+
+.btn:hover,
+.hero a:hover,
+.enquiry button:hover{
+transform:scale(1.08);
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+nav a{
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFD700;
+}.hero-content{
+animation:fadeUp 1.2s ease;
+}
+
+@keyframes fadeUp{
+0%{
+opacity:0;
+transform:translateY(50px);
+}
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}.gallery img:hover,
+.card img:hover{
+transform:scale(1.08);
+transition:.5s;
+}
+
