@@ -442,5 +442,24 @@ transition:1s;
 
 .slide.active{
 opacity:1;
-}
+}<section class="faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<details>
+<summary>Do you make custom sofas?</summary>
+<p>Yes, we manufacture customized sofas according to your design.</p>
+</details>
+
+<details>
+<summary>Do you provide home delivery?</summary>
+<p>Yes, delivery is available across Pune.</p>
+</details>
+
+<details>
+<summary>How many years warranty?</summary>
+<p>5 Years Warranty.</p>
+</details>
+
+</section>
 
