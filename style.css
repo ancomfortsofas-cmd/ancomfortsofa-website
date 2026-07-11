@@ -308,4 +308,16 @@ Sent
 .review-card h3{
     color:#FFD700;
     margin-bottom:15px;
+}.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+background:#111;
+color:white;
+padding:60px 10%;
+text-align:center;
+}
+
+.stats h2{
+color:#FFD700;
+font-size:42px;
 }
