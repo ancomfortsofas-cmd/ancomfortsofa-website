@@ -50,6 +50,11 @@ nav a{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+.hero-content{
+    text-align: center;
+    z-index: 2;
+}
+Sent
 }
 .hero h2{
     font-size:60px;
