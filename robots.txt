@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://ancomfortsofas-cmd.github.io/ancomfortsofa-website/sitemap.xml
