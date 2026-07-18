@@ -587,4 +587,37 @@ transform:scale(1.05);
 transform:scale(1);
 }
 
+}.services{
+padding:80px 10%;
+background:#fff;
+text-align:center;
+}
+
+.services h2{
+font-size:40px;
+margin-bottom:40px;
+color:#111;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.service-grid .card{
+background:#f8f8f8;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+}
+
+.service-grid h3{
+color:#111;
+margin-bottom:15px;
+}
+
+.service-grid p{
+color:#555;
+line-height:1.6;
 }
