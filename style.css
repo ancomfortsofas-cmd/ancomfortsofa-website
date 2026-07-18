@@ -674,3 +674,44 @@ line-height:1.7;
 .why-us p{
     color:white !important;
 }
+.services{
+padding:80px 10%;
+background:#1a1a1a;
+text-align:center;
+}
+
+.services h2{
+font-size:40px;
+color:#FFD700;
+margin-bottom:40px;
+}
+
+.service-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.service-card{
+background:#222;
+padding:30px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(255,215,0,.2);
+transition:.3s;
+}
+
+.service-card:hover{
+transform:translateY(-8px);
+}
+
+.service-card h3{
+color:#FFD700;
+font-size:24px;
+margin-bottom:15px;
+}
+
+.service-card p{
+color:#fff;
+font-size:17px;
+line-height:1.7;
+}
