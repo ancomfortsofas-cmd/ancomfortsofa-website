@@ -621,3 +621,37 @@ margin-bottom:15px;
 color:#555;
 line-height:1.6;
 }
+.why-us{
+padding:80px 10%;
+background:#111;
+text-align:center;
+color:white;
+}
+
+.why-us h2{
+color:#FFD700;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+}
+
+.why-grid .card{
+background:#222;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(255,215,0,.2);
+}
+
+.why-grid h3{
+color:#FFD700;
+margin-bottom:15px;
+}
+
+.why-grid p{
+color:#ddd;
+}
