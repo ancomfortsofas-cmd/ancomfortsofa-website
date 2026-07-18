@@ -659,4 +659,18 @@ margin-bottom:15px;
 color:#ffffff;
 font-size:16px;
 line-height:1.7;
+}.why-us *{
+    color:white !important;
+}
+
+.why-us h2{
+    color:#FFD700 !important;
+}
+
+.why-us h3{
+    color:#FFD700 !important;
+}
+
+.why-us p{
+    color:white !important;
 }
