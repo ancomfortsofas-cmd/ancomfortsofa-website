@@ -773,3 +773,23 @@ box-shadow:0 5px 15px rgba(0,0,0,.1);
 color:#c89b3c;
 margin-bottom:15px;
 }
+.call-btn{
+position:fixed;
+left:20px;
+bottom:20px;
+width:60px;
+height:60px;
+background:#28a745;
+color:#fff;
+font-size:30px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 5px 15px rgba(0,0,0,.3);
+z-index:9999;
+}
+Sent
+Compose
+Write to
