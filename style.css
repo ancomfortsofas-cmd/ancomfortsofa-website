@@ -744,3 +744,32 @@ color:#fff;
 line-height:1.8;
 font-size:17px;
 }
+.trust{
+padding:80px 10%;
+background:#f8f8f8;
+text-align:center;
+}
+
+.trust h2{
+font-size:38px;
+margin-bottom:40px;
+color:#111;
+}
+
+.trust-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.trust .card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.trust .card h3{
+color:#c89b3c;
+margin-bottom:15px;
+}
