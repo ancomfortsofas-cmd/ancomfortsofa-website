@@ -884,3 +884,30 @@ margin-bottom:10px;
 .services * {
     text-shadow: none;
 }
+/* FINAL FIX - SERVICE CARD TEXT VISIBILITY */
+#services .card,
+#services .service-card,
+#services .service-box {
+    background: #ffffff !important;
+    opacity: 1 !important;
+}
+
+#services .card *,
+#services .service-card *,
+#services .service-box * {
+    opacity: 1 !important;
+    visibility: visible !important;
+    color: #111111 !important;
+    text-shadow: none !important;
+}
+
+#services .card h3,
+#services .card p,
+#services .service-card h3,
+#services .service-card p,
+#services .service-box h3,
+#services .service-box p {
+    color: #111111 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
