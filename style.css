@@ -946,3 +946,85 @@ margin-bottom:10px;
     text-shadow: none !important;
     -webkit-text-fill-color: initial !important;
 }
+/* ================================
+   FINAL TEXT VISIBILITY FIX
+   A.N. COMFORT SOFAS
+   ================================ */
+
+/* Services section */
+.services {
+    color: #111111 !important;
+}
+
+/* Service cards */
+.services .card,
+.services .service-card,
+.services .service-box {
+    background: #ffffff !important;
+    color: #111111 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    filter: none !important;
+    text-shadow: none !important;
+}
+
+/* Service headings */
+.services .card h3,
+.services .card h4,
+.services .service-card h3,
+.services .service-card h4,
+.services .service-box h3,
+.services .service-box h4 {
+    color: #111111 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    text-shadow: none !important;
+}
+
+/* Service descriptions */
+.services .card p,
+.services .service-card p,
+.services .service-box p {
+    color: #111111 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    text-shadow: none !important;
+    display: block !important;
+}
+
+/* Service links/buttons */
+.services .card a,
+.services .service-card a,
+.services .service-box a {
+    color: #111111 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Make sure nothing inside service cards is transparent */
+.services .card *,
+.services .service-card *,
+.services .service-box * {
+    opacity: 1 !important;
+    visibility: visible !important;
+    filter: none !important;
+}
+
+/* Service heading above cards */
+.services > h2 {
+    color: #ffffff !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Service grid */
+.service-grid {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Remove unwanted effects */
+.services * {
+    text-shadow: none !important;
+    -webkit-text-fill-color: initial;
+}
