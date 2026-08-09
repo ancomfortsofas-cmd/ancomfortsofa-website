@@ -59,6 +59,72 @@
 ]
 }
 </script>
+    <style>
+/* ===== FINAL FIX FOR INVISIBLE TEXT ===== */
+
+.services .card,
+.services .card h3,
+.services .card h4,
+.services .card p,
+.services .card a,
+.services .card span,
+
+.repairing .card,
+.repairing .card h3,
+.repairing .card h4,
+.repairing .card p,
+.repairing .card a,
+.repairing .card span,
+
+.service-grid .card,
+.service-grid .card h3,
+.service-grid .card p,
+.repair-grid .card,
+.repair-grid .card h3,
+.repair-grid .card p {
+    color: #111111 !important;
+    -webkit-text-fill-color: #111111 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    text-shadow: none !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+/* White service boxes */
+.services .card,
+.repairing .card {
+    background: #ffffff !important;
+}
+
+/* Headings */
+.services .card h3,
+.repairing .card h3 {
+    display: block !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 1.4 !important;
+}
+
+/* Paragraphs */
+.services .card p,
+.repairing .card p {
+    display: block !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+}
+
+/* Force every child inside cards to be visible */
+.services .card *,
+.repairing .card * {
+    opacity: 1 !important;
+    visibility: visible !important;
+    -webkit-text-fill-color: #111111 !important;
+    text-shadow: none !important;
+    filter: none !important;
+}
+</style>
 </head>
 
 
