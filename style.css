@@ -793,3 +793,40 @@ z-index:9999;
 Sent
 Compose
 Write to
+.repairing{
+padding:80px 10%;
+background:#f8f8f8;
+text-align:center;
+}
+
+.repairing h2{
+font-size:38px;
+color:#111;
+margin-bottom:25px;
+}
+
+.repairing p{
+max-width:900px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+}
+
+.repair-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:35px;
+}
+
+.repair-grid .card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.repair-grid h3{
+color:#c89b3c;
+margin-bottom:10px;
+}
