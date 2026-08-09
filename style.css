@@ -830,3 +830,11 @@ box-shadow:0 5px 15px rgba(0,0,0,.1);
 color:#c89b3c;
 margin-bottom:10px;
 }
+/* Fix Sofa Repairing heading visibility */
+.hero h2 {
+    color: #FFD700 !important;
+    background: transparent !important;
+    text-shadow: 2px 2px 8px #000000 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
